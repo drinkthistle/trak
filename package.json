@@ -1,0 +1,16 @@
+{
+  "name": "trak",
+  "version": "0.0.1",
+  "description": "node.js library to interact with the trak delivery api, available at https://trak.addy.co/api/docs",
+  "main": "index.js",
+  "author": "James Pollack <james.b.pollack@gmail.com> (http://jamesbpollack.com/) for Thistle (http://www.drinkthistle.com)",
+  "license": "all rights reserved",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*" 
+  },
+  "dependencies": {
+    "request": "^2.36.0",
+    "underscore": "^1.6.0"
+  }
+}

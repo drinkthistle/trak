@@ -3,14 +3,37 @@
   "version": "0.0.1",
   "description": "node.js library to interact with the trak delivery api, available at https://trak.addy.co/api/docs",
   "main": "index.js",
-  "author": "James Pollack <james.b.pollack@gmail.com> (http://jamesbpollack.com/) for Thistle (http://www.drinkthistle.com)",
-  "license": "all rights reserved",
+  "author": "James Pollack <james.b.pollack@gmail.com> (http://jamesbpollack.com/)",
+  "license": "MIT",
   "devDependencies": {
     "chai": "*",
-    "mocha": "*" 
+    "mocha": "*"
   },
   "dependencies": {
     "request": "^2.36.0",
     "underscore": "^1.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drinkthistle/trak.git"
+  },
+  "keywords": [
+    "trak",
+    "delivery",
+    "delivery",
+    "management",
+    "thistle",
+    "drinkthistle",
+    "juice"
+  ],
+  "bugs": {
+    "url": "https://github.com/drinkthistle/trak/issues"
+  },
+  "homepage": "https://github.com/drinkthistle/trak"
 }

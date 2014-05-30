@@ -14,7 +14,7 @@ https://trak.addy.co/api/docs/
 <b>get your api key</b>
 - first you need to get your API key from trak.  
 - do this by running the createApiKey.js script in the following manner, which will create a file called trakKeys.js with your key.  <code>node createApiKey.js email password nameForThisKey</code>
-- copy paste this key into trak-addy.js where it says YOUR_TRAK_API_KEY, or better yet -- populate that field from a private file instead of exposing it
+- copy paste this key into trak-addy.js where it says process.env.TRAK_KEY, or better yet -- populate that field from a private file instead of exposing it
 
 ====
 

@@ -1,6 +1,6 @@
 {
   "name": "trak",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "node.js library to interact with the trak delivery api, available at https://trak.addy.co/api/docs",
   "main": "index.js",
   "author": "James Pollack <james.b.pollack@gmail.com> (http://jamesbpollack.com/)",
